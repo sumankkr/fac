@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>FitBeau</title>
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/jquery.validate.js"></script>
+
+		<!-- Font awesome -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<link rel="icon" href="images/logo_alone.png">
+
+		<link rel="stylesheet" href="css/about.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/global.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/responsive.css">
+
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""> </a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navlinks" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav font-class pull-right">
+							<li>
+								<a href="about_us.html" class="color-change">WHY US</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle color-change" data-toggle="dropdown">HOW IT WORKS<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="howto.html">For Brands</a>
+									</li>
+									<li>
+										<a href="inf_howto.html">For Influencers </a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="index.html" class="color-change">BRAND</a>
+							</li>
+							<li>
+								<a href="b_index.html" class="color-change">INFLUENCER</a>
+							</li>
+							<li>
+								<a href="search.html" class="color-change">SEARCH</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://itunes.apple.com/us/app/fitbeau/id1231657729?mt=8" class="color-change">GET APP</a>
+							</li>
+
+							<li>
+								<a class="color-change" href="https://blogfitbeau.wordpress.com" target="_blank">BLOG</a>
+							</li>
+							<li id="change-two">
+								<button type="button" class="btn navbar-btn blue-btn font-class-bold" id="nav-signup-btn">
+									SIGN UP
+								</button>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+		</header>
+		
+		
+		<!-- [Modal for SignIn Modal end.] -->
+		<div id="signup-container"></div>
+		<!-- [Modal for Business Modal] -->
+		<div id="business-modal-container"></div>
+		<!-- [Modal for Business Modal end.] -->
+		<!-- [Modal for Influencer Modal] -->
+		<div id="influencer-modal-container"></div>
+
+		<!-- [Modal for Influencer Modal end.] -->
+
+		<!-- [Modal for email sent Modal] -->
+
+		<div id="email-sent-modal-container">
+
+		</div>
+
+		<!-- [Modal for email sent Modal end.] -->
+
+		<!-- [Modal for wait Modal] -->
+		<div id="wait-modal-container">
+
+		</div>
+
+		<!-- [Modal for wait Modal end.] -->
+
+		<!-- [Modal for create content Modal] -->
+
+		<div id="create-content-modal-container">
+
+		</div>
+
+		<!-- [Modal for create content Modal end] -->
+
+		<div class="container-fluid-container mcontainer abt_container" style="">
+			<div class="row">
+			<h1 class="font-class-bold text-center" style="">Our Mission</h1>
+			<p>
+				We strongly believe that everyone deserves to look and feel fit, beautiful and live a healthy lifestyle, and so we’re focused solely on Fitness and Beauty. Our mission is to bring together the talent and expertise from influencers and content creators, with the best products and services from brands and businesses, so that you have a platform to spread this with the world </br>
+				</br>We’re dedicated to build a more FitBeau world. Join us!
+			</p>
+			</div>
+
+			<div class="row">
+
+				<div class="row" style="padding-bottom:4%;">
+					<h1 class="font-class-bold text-center" style="">About Us</h1>
+				</div>
+				<div class="row">
+				<div class="col-lg-6" >
+					<h4> Welcome to FitBeau.com. Our influencer marketing platform is where brands can match with content creators to promote their fitness and beauty products</h4>
+					<p style="padding-top:3%;" class="font-class">
+						FitBeau was spawned from a fitness and beauty directory site built in 2008 which used facebook and twitter to allow businesses to use their own customers to do their ‘advertising’ for them.
+
+						At the time Facebook was 2 years old (publicly) and twitter only had Steven Fry as their celeb advocate but this was the very start of the future of social media for businesses.
+
+						With our team of fitness and beauty experts, analysts, and developers, and our deep understanding of the evolution of social media, we want to share our insights for you to capitalise on the newest trends fast, so that you stay ahead of the curve.
+					</p>
+				</div>
+				<div class="col-lg-6">
+					<img src="images/coffee.jpg" alt="A coffee photo" style="width:100%;padding-top:4%;">
+				</div>
+				</div>
+
+			</div>
+
+			<div class="row padtop" style="">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="images/calc.jpeg" alt="A blue click pen with papers." style="width:100%;padding-top:4%;">
+				</div>
+
+				<div class="col-lg-6" class="font-class-bold">
+					<h4> Small and medium brands, and Traditional Marketing Agencies</h4>
+					<div style="padding-top:3%;" class="font-class">
+						<b>Use this platform to continuously improve your social media spend ROI.</b>
+						<p style="margin-top:4%;">
+							Our fully integrated app allows our influencers and brands to chat, collaborate and share
+
+							We believe collaboration and communication really brings out the best content. So our App is the easiest way 
+							to discover, connect and collaborate with great talent.  
+
+							Find out how to find the right influencers for your products, and how to get analytics to reduce investment risk by allowing you to make informed decisions
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+
+			<div class="row padtop" style="">
+				<div class="row">
+				<div class="col-lg-6" class="font-class-bold">
+					<h4> Micro-Influencers and Newbies</h4>
+					<div style="padding-top:3%;" class="font-class">
+						<b>Use this platform and fully integrated app to improve your content quality and appeal to continuously increase your income.</b>
+						<p style="margin-top:4%;">
+							If you're struggling to find fresh content to attract to followers or the right products for your audience, FitBeau offers a faster way to discover new things.
+						</p>
+
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<img src="images/smartphone.jpg" alt="A smartphone in hand." style="width:100%;padding-top:3%;">
+				</div>
+				</div>
+			</div>
+
+			<div class="row padtop" style="">
+				<div class="row">
+				<div class="col-lg-6">
+					<img src="images/calc.jpeg" alt="A blue click pen with papers." style="width:100%;padding-top:4%;">
+				</div>
+
+				<div class="col-lg-6" class="font-class-bold">
+					<h4> Influencer Agents</h4>
+					<div style="padding-top:3%;" class="font-class">
+						<b>If you manage multiple influencers we can make life a little easier</b>
+						<p style="margin-top:4%;">
+							Work with us to see how we can help you manage multiple influencer accounts. Contact our team hello@fitbeau.com
+						</p>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="row" style="padding-bottom:2%;">
+				<h1 class="font-class-bold text-center" style="">Let's Start With Why:</h1>
+			</div>
+			<h1 class="font-class-bold text-center" style=""><img src="images/pexels-photo-356079.jpeg" alt="" style="width:35%;padding-top:2%;"></h1>
+				<div class="row" style="padding-bottom:2%;">
+					<p class="font-class">
+						<iframe class="ifrm" width="" height="" align= "center" src="https://www.youtube.com/embed/gGtWNROMHwc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+						</BR>
+						<H3><b>So why does FitBeau exist?</b></H3>
+						</br>
+						The rise of obesity in both adults and children in US and UK is such a big health concern today, that its been called an epedemic. Even the fastest growing economies is the world China and India have the fastest growth of obese childern. Our world's largest and fastest growing countries are starting to wake up to its mental health problems too
+						</br> </br>
+						Coincidence? Or are these just the side effects of growing an economy's wealth? More luxuries, more inactive, sedentary lifestyles?
+						</br> </br>
+						It cripples economies not just with lower productivity and sick days, but also puts massive strains on our national health services. It effects all of us
+						</br> </br>
+						Something has to be done. Something needs to change. Together we can educate the world on how to be fitter, healthier and look good, so we feel great. Together we can share the best products and services out their to help people reach their beauty and fitness goals.
+						</br> </br>
+						At FitBeau we just provide you, the experts in fitness and beaauty, with a platform to make it a lot easier to do so. No one else is doing it, and we strongly believe it needed to be built
+						</br> </br>
+						If you want to be part of the change, join us and be part of the movement. Help us create a brighter future, help us build a more FitBeau world
+						</br></br></br></br>
+						<h1 class="font-class-bold text-center" style="">OK, but why use us?</h1></br></br>
+						<img class="imgg" src="images/about.png" alt="" style="" img align="left">
+						<div class="mid_cont">
+	
+						We bring the best brands, products and services in fitness & beauty, together with experts, influencers and content creators, because we know this is the best way for people to discover good quality. It's tried and tested, and if its good enough for the influencers we trust its good enough for their thousands of fans
+						</br> </br>
+						Brands, we see your frustrations in the digital space. We've sat and chatted with many of your peers, we get it. 70% of mobile devices use ad blockers, and potential customers don’t engage with brand content much anymore. So we offer a better way, which is more engaging and less intrusive, and saves you time and money.
+						</br></br>
+	
+						We’re a new influencer marketing platform to help your business:</br>
+	
+						•	Reach the right customers</br>
+						•	Meet your sales targets</br>
+						•	Get a better return on your marketing spend
+	
+						<h3 class="font-class-bold text-lft" style="">HOW IT WORKS:</h3></br>
+	
+						<b>1</b> We're constantly growing our community of Influencers aka Content Creators, who have 100s of 1000s of engaged social media fans </br> <b>2</b> We match your brand to the right influencers </br> <b>3</b> They share your products with their fans which is less intrusive and more engaging </br> <b>4</b> You get more sales, more retention and a better ROI than your paid ads </br> <b>5</b> We help you understand your results and continuously improve it</br>
+						</div>
+				</div>
+
+				<div class="row">
+	
+					</br>
+					</br>
+					WHAT'S SO DIFFERENT ABOUT THE FITBEAU PLATFORM?
+					</br></br>
+					<p>
+					<B>We're not trying to please everyone</B>, we're only here to provide our services to Fitness and Beauty brands. We won't be distracted by other industries like new gadgets, hotels or video games. We're focused on Your industry, and only listen to Your needs to continously build you a better platform
+					</br></br>
+					<b>We're focused on small and medium brands</b>, our aim is to meet your specific needs because we know you're looking for cost effective alternatives to traditional online marketing and paid ads which gives you a much high response rate.
+					<br>
+					</br>
+					<b>We're here to help you to fully unlock the potential of influencer marketing.</b> Not only can you view performance of influencers on our site, we can track the perfomance of influencers you already work with. You've built up a relationship with them but probably don't have any way to see their true performance levels.
+	
+					<br>
+					<br>
+	
+					<b>We target Micro-Influencers (10k - 100k follower)</b> because their followers are almost twice as engaged with their content that those with over 1m followers! They are the most driven to grow their fanbase, and are focused on discovering new products and services so that they can stand out
+					<br>
+					<br>
+					<br>
+					<b>Our influencer community is at our platform's core</b>, so unlike every other platform, we're focused on encouraging a sharing and collaborating evnironment where influencers can develop each other to generate better content. We allow them to showcase their skills, content and blogs.
+					<br>
+					This means newbies and even your loyal customers (your most valuable potential influencers) can be moulding by the community to become your best ambassadors
+					</br></br>
+					<b>Flexible incentives</b> Maybe you don't want to pay influencers a fee. Perhaps you prefer to offer discounts or free trials instead. FitBeau gives you the option to offer payment, freebies, discounts or a combination of the three.
+	
+					</br></br>
+	
+					</p>
+	
+				</div>
+
+			</div>
+
+					
+					
+					
+					<!-- <footer class="row"> -->
+    <div class="footer" id="footer">
+		<div class="container">
+	        <div class="row">
+	            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+	                <a class="ftr-logo" href="#"><img src="images/logo_light.png" alt="">
+	                </a>
+	
+	                <ul class="social">
+	                    <li>
+	                        <a target="_blank" href="https://www.facebook.com/TheFitBeauApp"> <i class=" fa fa-facebook">   </i> </a>
+	                    </li>
+	                    <li>
+	                        <a target="_blank" href="https://twitter.com/FitBeau"> <i class="fa fa-twitter">   </i> </a>
+	                    </li>
+	                    <li>
+	                        <a target="_blank" href="https://www.instagram.com/fitbeau_influencers/"> <i class="fa fa-instagram">   </i> </a>
+	                    </li>
+	                    <li>
+	                        <a target="_blank" href="https://www.youtube.com/channel/UCkvCyEAPE24jEESR0Z9duvg"> <i class="fa fa-youtube">   </i> </a>
+	                    </li>
+	                    <li>
+	                        <a target="_blank" href="https://www.linkedin.com/company-beta/24794689/"> <i class="fa fa-linkedin">   </i> </a>
+	                    </li>
+	                    <li>
+	                        <a target="_blank" href="https://www.pinterest.com/the_fitbeau_app/"> <i class="fa fa-pinterest">   </i> </a>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	                <h3> FitBeau App </h3>
+	                <ul>
+	                    <li> <a target="_blank" href="https://itunes.apple.com/us/app/fitbeau/id1231657729?mt=8"> App Store </a> </li>
+	                </ul>
+	            </div>
+	            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	                <h3> Who We Are </h3>
+	                <ul>
+	                    <li> <a href="about_us.html"> Who We Are </a> </li>
+	                    <li><a href="https://blogfitbeau.wordpress.com" target="_blank">Blog</a>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div class="col-lg-2 col-md-3 col-sm-2 col-xs-12">
+	                <h3> How it works </h3>
+	                <ul>
+	                    <li> <a href="howto.html"> For Brands </a> </li>
+	                    <li> <a href="inf_howto.html"> For Influencers </a> </li>
+	                </ul>
+	            </div>
+	        </div>
+    </div>
+ </div>
+    <!--/.footer-->
+
+		<script src="https://www.gstatic.com/firebasejs/4.1.5/firebase.js"></script>
+
+		<script type="text/javascript" src="js/bundle.js"></script>
+		<!-- <script type="text/javascript" src="js/index.js"></script> -->
+
+	</body>
+</html>

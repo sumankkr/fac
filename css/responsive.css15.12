@@ -1,0 +1,276 @@
+/*--customized--*/
+@media (max-width: 1920px) {
+}
+@media (max-width: 1600px) {
+}
+@media (max-width: 1340px) {
+}
+@media (max-width: 1280px) {
+
+}
+@media (max-width: 1199px) {
+	.container{width: 100%;}
+	.nav > li > a{padding: 10px 10px;}
+	.navbar-btn {margin-top: 2px;}
+	
+}
+@media (max-width: 1150px) {
+
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 991px) {
+.highlights h3.brand, .highlights h3.influencer {
+    padding: 2%;
+}
+/**********/
+.nav > li > a{padding: 10px 5px;}
+.navbar-nav > li {padding-right: 7px;padding-left: 7px;}
+.dropdown-menu{left: 6px;min-width: 121px;}
+.dropdown-menu > li > a{padding: 3px 5px;}
+
+
+}
+
+@media (max-width: 800px) {
+.box_inr .img-circle {
+    width: 210px;
+    height: 210px;
+}
+.startchange{
+	margin-bottom: 0%;
+}
+.box_inr .img-circle {
+    width: 195px;
+    height: 195px;
+}
+/**abt*********/
+.abt_container {
+    padding: 115px 50px 50px;
+}
+.padtop {
+    padding-top: 15px;
+}
+.mid_cont {
+    overflow: visible;
+}
+/********inf-howto****************/
+.tab_tbl {
+    top: 105px;
+}
+
+}
+
+@media (max-width: 767px) {
+.banner_part h2 {
+    font-size: 24px;
+}
+.banner_part #brand-signup, .banner_part #inf-signup {
+    margin: 0 10px;
+    width: 235px;
+}
+/***********/
+.nav > li > a{padding: 10px 5px;text-align: right;}
+.navbar-fixed-top {position: fixed;right: 0;left: 0;z-index: 1030;}
+.navbar-default{background-color: #FFF !important;}
+.navbar-default .navbar-nav > li > a {color:#000 !important;}
+.navbar-default .navbar-nav > li a:hover {color:#02cace !important;}
+.navbar-default .navbar-nav > .open > a{background:none;box-shadow: none;}
+.navbar-default .navbar-nav > .open > a:hover,.navbar-default .navbar-nav > .open > a:focus {color: #555;background: none;}
+.navbar-nav .open .dropdown-menu{text-align: right;}
+.navbar-nav > li:last-child{text-align: right;padding-right: 20px;}
+.navbar-nav > li {padding-right: 20px;}
+.navbar > .container .navbar-brand {margin: 10px 0 0 10px;}
+.navbar-toggle{margin-top: 12px;}
+.navbar-default .navbar-nav .open .dropdown-menu > li:hover a {color: #000;}
+.footer h3{font-size: 15px;}
+.footer ul li {margin: 0 0 10px;}
+.footer .col-xs-12{margin:0 0 15px;text-align: center;}
+.footer{padding: 20px 0;}
+.social li {
+    float: none;
+    margin: 0 4px 8px 4px !important;
+}
+/**abt*********/
+.abt_container {
+    padding: 75px 50px 15px;
+}
+h1.font-class-bold{
+	font-size: 30px;
+}
+.imgg {
+    width: 245px;
+    margin: 0px 0px auto;
+}
+.text-lft {
+    padding-left: 0;
+    text-align: center;
+}
+/********inf-howto****************/
+.tab_tbl {
+    display: none;
+}
+
+}
+
+@media (max-width: 640px) {
+.image-container {
+    margin-bottom: 38%;
+}
+/**abt*********/
+.ifrm {
+    width: 100%;
+    height: 298px;
+}
+.imgg {
+    width: 170px;
+}
+	
+}
+@media (max-width: 600px) {
+.image-container {
+    margin-bottom: 28%;
+}
+.signup-content {
+    padding-top: 15%;
+}
+.realtionship {
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+h2.font-class{
+	font-size: 24px;
+}
+h4.font-class{
+	font-size: 16px;
+}
+.highlights h3.brand, .highlights h3.influencer {
+    font-size: 28px;
+}
+
+}
+@media (max-width:575px){
+
+
+}
+
+
+
+@media (max-width: 568px) {
+.banner_part h2 {
+    font-size: 20px;
+}
+.banner_part #brand-signup, .banner_part #inf-signup {
+    width: 215px;
+    font-size: 12px;
+}
+.image-container {
+    margin-bottom: 25%;
+}
+.btn_outr{
+	margin-top: 15px;
+}
+	
+}
+
+@media (max-width: 480px) {
+.banner_part #brand-signup, .banner_part #inf-signup {
+    display: block;
+    margin: 10px auto;
+}
+.signup-content {
+    padding-top: 20%;
+}
+.image-container {
+    margin-bottom: 50%;
+}
+.modal {
+    margin-left: 0%!important;
+}
+.signup-img-container{
+	text-align: center;
+	margin: 0 5%;
+}
+#business-btn,#influencer-btn{
+	padding-left: 25px;
+	margin:5px 0;
+}
+/********/
+.modal{margin-left: -40%;}
+.modal-dialog{width:75%;}
+.customer-reach, .customer-reach-name{font-size:15px;}
+.signup-content h1, .signup-content p{font-size:15px;}
+.startchange img{width:40%;}
+.startchange{visibility: hidden;}
+.signup-content button{height: 46px;width: 177px;}
+#brand-signup{margin-left: -17%;margin-right: 15%;margin-bottom: 7%;margin-top: 4%;}
+#inf-signup{margin-bottom: 7%;margin-top: 4%; margin-left: -17%;}
+#video-background{width:142%;}
+.signup-content h1, .signup-content p{margin-left: -1%;}
+.modal{margin-left: -40%;}
+.modal-dialog{width:75%;}
+
+}
+
+
+@media (max-width: 420px) {
+.signup-content {
+    padding-top: 20%;
+}
+.image-container {
+    margin-bottom: 55%;
+}
+.signup-content button {
+    height: 35px;
+}
+.banner_part h2 {
+    font-size: 18px;
+}
+.realtionship h3 {
+    font-size: 20px;
+}
+.influencer-button, .brands-button {
+    border-radius: 10px;
+    padding: 10px 45px;
+}
+.highlights {
+    width: 100%;
+}
+.highlights h3.brand, .highlights h3.influencer {
+    font-size: 20px;
+}
+.imgg {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+    padding-right: 0;
+}
+
+}
+@media (max-width: 384px) {
+.image-container {
+    margin-bottom: 43%;
+}
+.signup-content {
+    padding-top: 16%;
+}
+.h3, h3 ,.realtionship h3{
+    font-size: 16px;
+}
+/***abt*******/
+h1.font-class-bold {
+    font-size: 25px;
+}
+.ifrm {
+    height: 139px;
+}
+
+}
+@media (max-width: 320px) {
+}
+
+@media screen and (max-width: 940px) and (min-width: 480px)  {
+    .startchange{visibility: hidden;}
+}
+/*==============end==============*/

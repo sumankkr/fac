@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>FitBeau</title>
+	<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-98319879-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+
+	<!-- Font awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<link rel="icon" href="images/logo_alone.png">
+
+	<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+	</head>
+	<body>
+		<!--<div id="fb-root"></div>
+		 <script>
+			( function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id))
+						return;
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+		</script> -->
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""> </a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navlinks" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav font-class pull-right">
+							<li>
+								<a href="about_us.html" class="color-change">WHY US</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle color-change" data-toggle="dropdown">HOW IT WORKS<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="howto.html">For Brands</a>
+									</li>
+									<li>
+										<a href="inf_howto.html">For Influencers </a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="index.html" class="color-change">BRAND</a>
+							</li>
+							<li>
+								<a href="b_index.html" class="color-change">INFLUENCER</a>
+							</li>
+							<li>
+								<a href="search.html" class="color-change">SEARCH</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://itunes.apple.com/us/app/fitbeau/id1231657729?mt=8" class="color-change">GET APP</a>
+							</li>
+
+							<li>
+								<a class="color-change" href="https://blogfitbeau.wordpress.com" target="_blank">BLOG</a>
+							</li>
+							<li id="change-two">
+								<button type="button" class="btn navbar-btn blue-btn font-class-bold" id="nav-signup-btn">
+									SIGN UP
+								</button>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+		</header>
+
+		<div class="container-fluid mcontainer">
+
+			<div class="row image-container collag-container">
+
+				<img src="images/collage.png" alt="" class="img-responsive" style="filter:brightness(42%)"/>
+				<div class="image-con-outr">
+					<div class="container">
+						<div class="image-con-inn">
+						<p id="banner-text">
+							<strong>JOIN FREE AND BE PART OF THE FITNESS & BEAUTY INFLUENCER COMMUNITY. </strong>
+							<br>
+							<small>FIND COLLABORATORS, SHARE ADVICE, TRACK YOUR OWN SOIAL MEDIA PERFOMANCE, GET HEADHUNTED, GET REWARDED</br> Educate & Inspire</small>
+						</p>
+	
+						<button class="btn button  b" id="inf-signup">
+							APPLY
+						</button>
+					</div>
+				</div>
+				<!-- <button type="button" class="btn navbar-btn blue-btn font-class-bold" id="nav-signup-btn" style="font-size :12px;">SIGN UP</button>
+				<a target="_blank" href="https://itunes.apple.com/us/app/fitbeau/id1231657729?mt=8" style="margin-left:250px;"><img id="apple-badge" src="images/apple_app_store_badge.svg" alt="App Store Icon"></a> -->
+				<!-- <button onclick="location.href='about_us.html'"  class= "btn button" style="margin-left:20px;">HOW IT WORKS</button> -->
+
+				<!--
+				<div class= "app-image-container">
+				<img src="images/phone.png" id= "phone"alt="" class="img-responsive">
+				<!-- For auto carousel -->
+				<!--					<div id="myCarousel" class="carousel slide phone-screen">
+				<!-- Indicators -->
+				<!--						    <ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+				<div class="item active">
+				<img src="images/appscreen_1.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive ">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_2.png" style="width:100%; height:100%;object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_3.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_4.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_5.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_6.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_7.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_8.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_9.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_10.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_11.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_12.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+				<div class="item">
+				<img src="images/appscreen_13.png" style="width:100%; height:100%; object-fit:contain;" class="img-responsive">
+
+				</div>
+
+				</div>
+
+				</div>
+				</div>
+				<!-- /.carousel -->
+				<!-- Marketing messaging and featurettes==================================================- -->
+				<!--  Wrap the rest of the page in another container to center all the content. -->
+
+
+				<!-- end of carousel -->
+
+			</div>
+		</div>
+
+		<!-- [Modal for SignIn Modal] -->
+		<div class="modal fade modal-position" id="signin-modal" style="margin-top:10%;">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content" style="width:100%;">
+					<div class="modal-header" style="border:none; padding-bottom:0px;">
+						<button type="button" class="close" data-dismiss="modal">
+							&times;
+						</button>
+
+						<h5 class="modal-title font-class-bold" style="font-size:22px; margin-left:38%;">Sign In</h5>
+
+					</div>
+					<div class="modal-body" style="padding:2%;">
+
+						<form  id="signin-form"  style="width: 90%;margin-left: 5%;" >
+							<!-- business-signup-form" -->
+							<div style="padding-top:6%;" >
+								<input class="input-style" type="email" id="signin-email"placeholder="Enter Registered Email"  required/>
+								<input class="input-style" type="password" id="signin-password" placeholder="Password"  required/>
+							</div>
+
+					</div>
+					<div class="modal-footer" style="border:none;">
+						<button type="submit" class= "btn button blue-btn" id="signin-btn" style="height:40px;width: 225px;margin-right: 20%;">
+							SIGN IN
+						</button>
+
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- [Modal for SignIn Modal end.] -->
+
+		<div id="signup-container"></div>
+
+		<!-- [Modal for Business Modal] -->
+		<div id="business-modal-container"></div>
+		<!-- [Modal for Business Modal end.] -->
+		<!-- [Modal for Influencer Modal] -->
+		<div id="influencer-modal-container"></div>
+
+		<!-- [Modal for Influencer Modal end.] -->
+
+		<!-- [Modal for email sent Modal] -->
+
+		<div id="email-sent-modal-container">
+
+		</div>
+
+		<!-- [Modal for email sent Modal end.] -->
+
+		<!-- [Modal for wait Modal] -->
+		<div id="wait-modal-container">
+
+		</div>
+
+		<!-- [Modal for wait Modal end.] -->
+
+		<!-- [Modal for create content Modal] -->
+
+		<div id="create-content-modal-container">
+
+		</div>
+
+		<div class="container-fluid comn-outr">
+			<div class= "row">
+				<div class="col-lg-4 col-md-4 col-md-offset-2">
+					<div class="row connct-outr">
+						<div class="col-xs-2 eql-ht">
+							<img src="images/swipe-logo.png" alt="A swipe logo">
+						</div>
+						<div class="col-xs-8">
+							<p class="features-head font-class-bold">
+								<strong>CONNECT</strong>
+							</p>
+							<p class="font-class">
+								Connect all your social media accounts to the platform so brands can discover you and your latest content <!--By swiping right (like) or left (don’t like) on the app, you can browse and connect with Influencers and businesses to collaborate with, and share your best content and hottest blog posts! -->
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4">
+					<div class="row connct-outr">
+						<div class="col-xs-2 eql-ht">
+							<img src="images/discover-logo.png" alt="A swipe logo">
+						</div>
+						<div class="col-xs-8">
+							<p class="features-head font-class-bold">
+								<strong>DISCOVER</strong>
+							</p>
+							<p class="font-class">
+								Get inspired by discovering other influencer-generated content, or find product campaigns added by brands
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class= "row">
+				<div class="col-lg-4 col-md-4 col-md-offset-2">
+					<div class="row connct-outr">
+						<div class="col-xs-2 eql-ht">
+							<img src="images/share-logo.png" alt="A swipe logo">
+						</div>
+						<div class="col-xs-8">
+							<p class="features-head font-class-bold">
+								<strong>SHARE</strong>
+							</p>
+							<p class="font-class">
+								Build a portfolio of your best content and blog posts. We share your work across the whole platform, so you get noticed by brands
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-4">
+					<div class="row connct-outr">
+						<div class="col-xs-2 eql-ht">
+							<img src="images/promote-logo.png" alt="A swipe logo">
+						</div>
+						<div class="col-xs-8">
+							<p class="features-head font-class-bold">
+								<strong>PROMOTE</strong>
+							</p>
+							<p class="font-class">
+								Have you connected your accounts like Instagram, Facebook, Twitter and Youtube? Can brands see your portfolio? Great! Now we'll bring the brands to you, so you can do what you do best. </br></br><i>(Don't want to wait? Soon you can search for product campaigns yourself) </i>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row feeet">
+				<img src="images/feat.png" alt="">
+			</div>
+
+			<!-- <div class="row" style="background-color:#2d2343; padding:50px;">
+
+			<div class="col-lg-6 col-md-6 col-md-offset-5" style="margin-left:45%;">
+			<p style="color: #FFFFFF;font-size:20px;" class="font-class">SUBSCRIBE</p>
+
+			</div>
+			<div class="col-lg-4 col-md-4 col-md-offset-5" style="margin-left:45%;">
+
+			<p style="color: #FFFFFF; margin-left:-5px;" class="font-class">To get FitBeau App</p>
+
+			</div>
+			<div class="col-lg-4 col-md-4 col-md-offset-4" style="border-bottom:1px solid #726f6f;box-shadow:none;margin-left:35%;">
+
+			<div class="input-group" >
+			<input type="text" id="email" class="form-control font-class" placeholder="Enter e-mail address" aria-describedby="basic-addon2" >
+			<span class="input-group-addon sendmail">
+			<img src="images/send_button.png" alt="">
+			</span>
+			</div>
+
+			</div>
+
+			</div> -->
+
+			<div class="row get-started">
+
+				<div class="col-lg-12 col-md-12">
+					<p class="font-class">
+						GET STARTED TODAY
+					</p>
+
+				</div>
+				<div class="col-lg-12 col-md-12">
+					<div class="get-start-two">
+						<p class="font-class">
+							To use FitBeau App
+						</p>
+					</div>
+				</div>
+				<!-- <div class="col-lg-12 col-md-12" style="padding-bottom:35px; padding-top: 20px;">
+
+				<div class="col-lg-3 col-md-3 col-md-offset-3">
+
+				<input type="email" id="email" class="form-control font-class" placeholder="EMAIL" aria-describedby="basic-addon2" style="border-bottom:1px solid #e4e4e4; box-shadow: none;">
+
+				</div>
+
+				<div class="col-lg-3 col-md-3">
+				<input type="password" id="password" class="form-control font-class" placeholder="PASSWORD" aria-describedby="basic-addon2" style="border:0; border-bottom:1px solid #e4e4e4; box-shadow: none;">
+
+				</div>
+
+				</div>	 -->
+				<div class="col-lg-12 col-md-12">
+					<button id="signup-free-btn" class= "btn button blue-btn free-btn">
+						SIGN UP FOR FREE
+					</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="footer" id="footer">
+		<div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+                <a class="ftr-logo" href="#"><img src="images/logo_light.png" alt="">
+                </a>
+
+                <ul class="social">
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/TheFitBeauApp"> <i class=" fa fa-facebook">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://twitter.com/FitBeau"> <i class="fa fa-twitter">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/fitbeau_influencers/"> <i class="fa fa-instagram">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCkvCyEAPE24jEESR0Z9duvg"> <i class="fa fa-youtube">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/company-beta/24794689/"> <i class="fa fa-linkedin">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.pinterest.com/the_fitbeau_app/"> <i class="fa fa-pinterest">   </i> </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <h3> FitBeau App </h3>
+                <ul>
+                    <li> <a target="_blank" href="https://itunes.apple.com/us/app/fitbeau/id1231657729?mt=8"> App Store </a> </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <h3> Who We Are </h3>
+                <ul>
+                    <li> <a href="about_us.html"> Who We Are </a> </li>
+                    <li><a href="https://blogfitbeau.wordpress.com" target="_blank">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-2 col-xs-12">
+                <h3> How it works </h3>
+                <ul>
+                    <li> <a href="howto.html"> For Brands </a> </li>
+                    <li> <a href="inf_howto.html"> For Influencers </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/.footer-->
+
+
+    <!-- 				</footer>
+ -->
+ <!-- For the graph. -->
+ <!-- <div id="visualization"></div> -->
+
+    </div>
+
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+		<script></script>
+
+		<script type="text/javascript" src="js/bundle.js"></script>
+		<!-- <script type="text/javascript" src="js/index.js"></script> -->
+
+	</body>
+</html>

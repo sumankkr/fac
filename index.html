@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FitBeau</title>
+    <link rel="icon" href="https://www.fitbeau.com/images/logo_alone.png">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-98319879-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/jquery.validate.js"></script>
+    
+<!--pop-up--
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"8d10492d402818cc23efaa016","lid":"72ae449005"}) })</script>
+<!--pop-up-->
+
+    <!-- Font awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="icon" href="images/logo_alone.png">
+
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/b_index.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- For the graph. -->
+<!-- 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.1/vis.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.20.1/vis.min.css"> -->
+
+
+</head>
+
+<body>
+    <!-- <div id="fb-root"></div> -->
+   <!-- <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script> -->
+    <header>
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""> </a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse navlinks" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav font-class pull-right">
+							<li>
+								<a href="about_us.html" class="color-change">WHY US</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle color-change" data-toggle="dropdown">HOW IT WORKS<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="howto.html">For Brands</a>
+									</li>
+									<li>
+										<a href="inf_howto.html">For Influencers </a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="index.html" class="color-change">BRAND</a>
+							</li>
+							<li>
+								<a href="b_index.html" class="color-change">INFLUENCER</a>
+							</li>
+							<li>
+								<a href="search.html" class="color-change">SEARCH</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://itunes.apple.com/us/app/fitbeau/id1231657729?mt=8" class="color-change">GET APP</a>
+							</li>
+
+							<li>
+								<a class="color-change" href="https://blogfitbeau.wordpress.com" target="_blank">BLOG</a>
+							</li>
+							<li id="change-two">
+								<button type="button" class="btn navbar-btn blue-btn font-class-bold" id="nav-signup-btn">
+									SIGN UP
+								</button>
+							</li>
+						</ul>
+					</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container-fluid -->
+			</nav>
+		</header>
+
+
+
+
+    <!-- /.carousel -->
+    <!-- Marketing messaging and featurettes==================================================- -->
+    <!--  Wrap the rest of the page in another container to center all the content. -->
+
+
+
+
+
+    <!-- end of carousel -->
+
+
+
+
+
+    <!-- [Modal for SignIn Modal] -->
+    <div class="modal fade modal-position" id="signin-modal" style="margin-top:10%;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="border:none; padding-bottom:0px;">
+                    <h5 class="modal-title font-class-bold" style="font-size:22px; margin-left:38%;">Sign In</h5>
+
+                </div>
+                <div class="modal-body" style="padding:2%;">
+
+
+                    <form id="signin-form" style="width: 90%;margin-left: 5%;">
+                        <!-- business-signup-form" -->
+                        <div style="padding-top:6%;">
+                            <input class="input-style" type="email" id="signin-email" placeholder="Enter Registered Email" required/>
+                            <input class="input-style" type="password" id="signin-password" placeholder="Password" required/>
+                        </div>
+
+
+                </div>
+                <div class="modal-footer" style="border:none;">
+                    <button type="submit" class="btn button blue-btn" id="signin-btn" style="height:40px;width: 225px;margin-right: 20%;">SIGN IN</button>
+
+                    <button id="insta"> Login with Instagram</button>
+
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- [Modal for SignIn Modal end.] -->
+    <div id="signup-container"></div>
+
+
+
+
+
+    <!-- [Modal for Business Modal] -->
+    <div id="business-modal-container"></div>
+    <!-- [Modal for Business Modal end.] -->
+    <!-- [Modal for Influencer Modal] -->
+    <div id="influencer-modal-container"></div>
+
+
+    <!-- [Modal for Influencer Modal end.] -->
+
+    
+
+    <!-- [Modal for wait Modal] -->
+    <div id="wait-modal-container">
+
+    </div>
+
+    <!-- [Modal for wait Modal end.] -->
+
+    <!-- [Modal for create content Modal] -->
+
+    <div id="create-content-modal-container">
+
+    </div>
+
+    <!-- [Modal for create content Modal end] -->
+
+    <div class="row image-container">
+        <div class="col-lg-12" style="padding:0;">
+            <div class="video-overlay">
+
+            </div>
+
+            <video id="video-background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+                <source src="video/627961583.mp4" type="video/mp4"> Video not supported
+            </video>
+            <div class="banner_part signup-content text-center row">
+           	
+                <h2 class="text-center" class="font-class" style="color:#FFF;margin-bottom:2%;" >CONNECTING BRANDS AND INFLUENCERS</h2> 
+                <h5 class="text-center" class="font-class" style="color:#FFF;margin-bottom:2%;" >FOR FITNESS & BEAUTY BUSINESSES</h5>
+				<p class="text-center" class="font-class" style="  color: rgba(253, 255, 254, 0.76);"></p> 
+		              
+                <div class="text-center btn_outr">
+                    <button class="btn button blue-btn" id="brand-signup" >BRAND QUICK SIGNUP</button>
+                    <button class="btn button  button-default" id="inf-signup" style="color:#000;"> INFLUENCER QUICK SIGNUP</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- </div> -->
+
+
+    <!-- 		<div class="container-fluid startchange" style="">
+ -->
+    <div class="row startchange" style="">
+        <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
+        
+        <div class="row">
+        <div class="col-lg-6 col-sm-6 col-xs-6 text-right">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="customer-reach" style="color:#FFF;">+5,000,000</span>
+
+                </div>
+                <div class="col-md-12">
+                    <img src="images/line.png" alt="" />
+
+                </div>
+                <div class="col-md-12">
+
+                    <span class="customer-reach-name font-class" style="color:#FFF;">TOTAL REACH</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-xs-6">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="customer-reach" style="color:#FFF;">+3,000,000</span>
+
+                </div>
+                <div class="col-md-12">
+                    <img src="images/line.png" alt="" />
+
+                </div>
+                <div class="col-md-12">
+
+                    <span class="customer-reach-name font-class" style="color:#FFF;">TOTAL FOLLOWERS</span>
+                </div>
+            </div>
+        </div>
+      </div>
+ </div>
+
+    <!-- [Modal for email sent Modal] -->
+
+    <div id="email-sent-modal-container">
+
+    </div>
+
+    <!-- [Modal for email sent Modal end.] -->
+
+    <div class="row realtionship">
+
+        <div class="col-lg-12 text-center">      				
+     
+    <!---- BRAND LOGOS
+    <h4 class="font-class" style="color: #000000;"> </h4>
+    <div class="col-lg-2">
+						<img src="images/barbers.png" alt="" >
+					</div>
+
+    
+<div class="row"  style="background-color: #FFFFFF; padding-right: 0px; padding-left:0px; margin-right: 0px; margin-left:0px;" >
+		<div class="col-lg-12 text-center">
+			
+		
+
+
+			<div class="col-lg-12" style="margin-top:3%;background-color: #FFFFFF;" >
+				<div class="row">
+	
+					<div class="col-lg-4">
+						<img src="images/forza.png" alt="" >
+					</div>
+	
+					<div class="col-lg-4">
+						<img src="images/skinnyBakery.png" alt="" >
+					</div>	
+					
+					<div class="col-lg-4">
+						<img src="images/katySofia.png" alt="">
+					</div>
+					
+					
+					
+									</div>
+			</div>		
+
+		</div>
+</div>
+---->
+		<h3 style="">#EngageThroughRelationships</h3>
+		<h5 style="">Our self-service analytics platform gives marketers the tools to discover, track and build relationships with influential content creators
+
+</h5>
+		
+        </div>
+        
+
+
+        <div class="row">
+            <div class="col-lg-6 animatedParent" style="margin-top: 8%;">
+                <img src="images/analyticsHP.jpg" class="img-responsive animated fadeInLeft go" alt="">
+            </div>
+            <div class="col-lg-6 animatedParent" data-sequence="300" style="margin-top:6%;">
+                <div class="row slide-in-content animated fadeInRight  go" data-id="1">
+                    <div class="col-md-12">
+                        <h3 class="font-class">SEARCH &amp; ANALYTICS</h3>
+                        <p style="margin: 0 0 0px;margin-top: 3%;" class="font-class">- Use search filters to find influencers with the right audience</p>
+                        <p style="margin: 0 0 0px;" class="font-class">- Preview their profile, portfolio of best work and social media analytics</p>
+                        <p style="margin: 0 0 0px;" class="font-class">- Take a deep dive into their historical performance.</p>
+                        <a href="http://www.fitbeau.com/search.html" class="text-align-right"> Search Now...</a>
+                    </div>
+                </div>
+
+                <div class="row slide-in-content animated fadeInRight go" data-id="2" id="scroll-to">
+                    <div class="col-md-12">
+                        <h3 id="scroll-to" class="font-class" style="margin-top: 3%;">CONNECT &amp; BUILD RELATIONSHIPS</h3>
+                        <p style="margin: 0 0 0px;margin-top: 3%;" class="font-class">- Chat with influencers on the site or app & get to know those that you like 
+                        </br>- Link from their profile directly to their social media profiles and blog sites.</p>
+                        <a href="http://www.fitbeau.com/b_index.html" class="text-align-right"> Read more...</a>
+                    </div>
+                </div>
+
+                <div class="row slide-in-content animated fadeInRight go" data-id="3">
+                    <div class="col-md-12">
+                        <h3 class="font-class" style="margin-top: 3%;">CAMPAIGN &amp; TRACK</h3>
+                        <p style="margin: 0 0 0px;margin-top: 3%;" class="font-class">- Generate awareness of your brand or a new product line, or send traffic to you're website or store</p>
+                        <p style="margin: 0 0 0px;" class="font-class">- Set the criteria and we'll pick out the best influencer matches</p>
+                        <p style="margin: 0 0 0px;" class="font-class">- See your campaign's performance. Track the performance of your influencers</p>
+                        <a href="http://www.fitbeau.com/howto.html" class="text-align-right"> Read more...</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<h2 class="font-class"> FEATURED INFLUENCERS </h2>
+		</div>
+		<div class="col-lg-12 text-center">
+			<h4 class="font-class"> MEET 100s OF OUR REGISTERED FITNESS AND BEAUTY INFLUENCERS</h4>
+		</div>
+
+		<div class="col-lg-12" style="margin-top:3%;">
+			<div class="row">
+
+				<div class="col-lg-4 col-sm-4 text-center">
+					<div class="box_inr">
+						<img class="img-circle"src="https://firebasestorage.googleapis.com/v0/b/fitbeau-5606d.appspot.com/o/p7ErVT5uqrPvcElyVvwNJVMxf1K2%2FprofileImage%2FIMG_1231.jpg?alt=media&token=9ce1f057-dc01-46f7-b508-455d654127c5" alt="" >
+						<h4 class="font-class">Angela Crickmore <a href="https://www.instagram.com/angelcrickmore/?hl=en" target="_blank">(@angelaCrickmore)</a></h4>
+	                   	<h4 class="font-class"><strong> 143k Followers</strong></h4>
+                   </div>
+				</div>
+
+				<div class="col-lg-4 col-sm-4 text-center">
+					<div class="box_inr">
+						<img class="img-circle"src="https://graph.facebook.com/1364218576960557/picture?width=100&height=100" alt="" >
+						<h4 class="font-class">Janos Erdei <a href="https://www.instagram.com/jnsrd/?hl=en" target="_blank">(@jnsrd)</a></h4>
+	                  	<h4 class="font-class"><strong> 12k Followers</strong></h4>
+                    </div>
+				</div>	
+				
+				<div class="col-lg-4 col-sm-4 text-center">
+					<div class="box_inr">
+						<img class="img-circle"src="https://graph.facebook.com/773662119476074/picture?width=100&height=100" alt="" >
+						<h4 class="font-class">Zaena Morisho <a href="https://www.instagram.com/zaena_morisho/?hl=en" target="_blank">(@zaena_morisho)</a></h4>
+						<h4 class="font-class"><strong> 290k Followers</strong></h4>
+					</div>
+				</div>
+				
+
+			</div>	
+		
+<div class="row">
+
+				<div class="col-lg-4 col-sm-4 text-center">
+					<div class="box_inr">
+					<img class="img-circle"src="https://firebasestorage.googleapis.com/v0/b/fitbeau-5606d.appspot.com/o/3BZSxZVhc3ZuscNva0T4fy1wfup1%2FprofileImage%2FFullSizeRender%2010.jpg?alt=media&token=b632a6c2-bff7-47bb-bdb3-c8696e7bde0b" alt="" >
+				<h4 class="font-class">Monique Lynn  <a href="https://www.instagram.com/_moniquelynn/" target="_blank">(@_moniquelynn)</a></h4>
+                   		<h4 class="font-class"><strong>979k Followers</strong></h4>
+                   		</div>
+					
+				</div>
+
+				<div class="col-lg-4 col-sm-4 text-center">
+					<div class="box_inr">
+					<img class="img-circle"src="https://firebasestorage.googleapis.com/v0/b/fitbeau-5606d.appspot.com/o/ePAOgOCZlkVuFPhkYPRsBCC9vvX2%2FprofileImage%2FIMG_8310.JPG?alt=media&token=52855f17-498c-4808-acde-e7f86f4472dd" alt="" >
+					<h4 class="font-class">Leona Robson<a href="https://www.instagram.com/leona_cutee/" target="_blank">(@leona_cutee)</a></h4>
+                  			<h4 class="font-class"><strong> 36k Followers</strong></h4>
+                  			</div>
+				</div>	
+				
+				<div class="col-lg-4 col-sm-4 text-center">
+					<div class="box_inr">
+				<img class="img-circle"src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-1/p200x200/21314841_1872793922738443_2662216247154895989_n.jpg?oh=e09a35c384f1dc5b737902fe2f7e1399&oe=5A3EFEA2" alt="" >	
+					
+					
+					<h4 class="font-class">Larissa Bartolo <a href="https://www.instagram.com/larissabartolo/"> (@larissabartolo)</a></h4>
+					<h4 class="font-class"><strong>126k Followers </strong></h4>
+					</div>
+				</div>
+				
+
+</div>
+
+<div class="row">
+
+				<div class="col-lg-4 col-sm-4 text-center">
+					<div class="box_inr">
+					<img class="img-circle"src="https://firebasestorage.googleapis.com/v0/b/fitbeau-5606d.appspot.com/o/vpKLvf1K10WwMOaKS9xKf2bYpot2%2FprofileImage%2F12545982_849360925172214_1298489845_o.jpg?alt=media&token=bf52494f-91ce-4b89-883f-fc0df9d716fa" alt="" >
+				<h4 class="font-class">Milly Bannister  <a href="https://www.instagram.com/_millybannister/" target="_blank">(@_millybannister)</a></h4>
+                   		<h4 class="font-class"><strong>21k Followers</strong></h4>
+                   		</div>
+					
+				</div>
+
+<div class="col-lg-4 col-sm-4 text-center">
+					<div class="box_inr">
+					<img class="img-circle"src="images/feat_inf_man.png" alt="">
+					<h4 class="font-class"> <a href="" target="_blank"> </a></h4>
+                  			<h4 class="font-class"><strong> Discover more... </strong></h4>
+                  			</div>
+				</div>	
+				
+				<div class="col-lg-4 col-sm-4 text-center">
+					<div class="box_inr">
+				<img class="img-circle"src="images/feat_inf_woman.png" alt="">	
+					
+					
+					<h4 class="font-class"> <a href=" "></a></h4>
+					<h4 class="font-class"><strong>Discover more... </strong></h4>
+					</div>
+				</div>
+				
+
+</div>
+		</div>
+
+	</div>
+
+<!-------- PRICING ------------
+
+<div class="row"  style="background-color: #FFFFFF; padding-right: 0px; padding-left:0px; margin-right: 0px; margin-left:0px;" >
+		<div class="col-lg-12 text-center">
+			<h3 class="font-class" style="color: #000000;"> <b>Tell us which plan would suit you: </b> </h4>
+		DON'T FORGET, OUR QUICK-SIGNUP IS <u>CURRENTLY FREE FOR A LIMITED TIME</u>
+
+
+			<div class="col-lg-12" style="margin-top:3%;background-color: #FFFFFF;" >
+				<div class="row">
+	
+					<div class="col-sm-4">
+					<a href="mailto:hello@fitbeau.com?subject=Payment Only Plan&body=Hi there! Thanks for your interest in finding out about rewarding influencers with a flat fee, please tell us your opinions below so we can tailor our platform to your needs%0D%0D%0D%0D
+INFLUENCER MARKETING SURVEY :
+%0D%0D
+(1) What particular issues do you come across when promoting your products/services online via Facebook, Instagram or other social media sites?
+%0D%0D%0D
+(2) How do you feel about results you get from putting ads online or from being on directory sites like Yell.com?
+%0D%0D%0D
+(3)	Have you heard about Influencer marketing?
+If so, have you tried it before? Otherwise what concerns you about it?
+%0D%0D%0D
+(4)	If there was a website for you to find fitness/beauty influencers fast, what features or results would you like it to have?
+%0D%0D%0D
+(5)	If it had all those features/results, how much would you pay for it a month?
+
+%0D%0D%0D%0D
+From the FitBeau team, Thanks for telling us your pains and opinions. It's so important to us to ensuring we provide you the results you need!
+
+DON'T FORGET TO SIGNUP FREE
+">
+<img src="images/payOnly.jpg" alt="" >
+</a>
+						
+					</div>
+	
+					<div class="col-sm-4">
+						<a href="mailto:hello@fitbeau.com?subject=HYBRID PLAN&body=Hi there! Thanks for your interest in finding out about rewarding influencers with discounts, freebies or a flat fee, please tell us your opinions below so we can tailor our platform to your needs%0D%0D%0D%0D
+INFLUENCER MARKETING SURVEY :
+%0D%0D
+(1) What particular issues do you come across when promoting your products/services online via Facebook, Instagram or other social media sites?
+%0D%0D%0D
+(2) How do you feel about results you get from putting ads online or from being on directory sites like Yell.com?
+%0D%0D%0D
+(3)	Have you heard about Influencer marketing?
+If so, have you tried it before? Otherwise what concerns you about it?
+%0D%0D%0D
+(4)	If there was a website for you to find fitness/beauty influencers fast, what features or results would you like it to have?
+%0D%0D%0D
+(5)	If it had all those features/results, how much would you pay for it a month?
+
+%0D%0D%0D%0D
+From the FitBeau team, Thanks for telling us your pains and opinions. It's so important to us to ensuring we provide you the results you need!
+
+DON'T FORGET TO SIGNUP FREE
+">
+<img src="images/hybrid.jpg" alt="" >
+</a>
+					</div>	
+					
+					<div class="col-sm-4">
+						<a href="mailto:hello@fitbeau.com?subject=FREEBIES and DISCOUNTS Plan&body=Hi there! Thanks for your interest in finding out about rewarding influencers with freebies and discounts, please tell us your opinions below so we can tailor our platform to your needs%0D%0D%0D%0D
+INFLUENCER MARKETING SURVEY :
+%0D%0D
+(1) What particular issues do you come across when promoting your products/services online via Facebook, Instagram or other social media sites?
+%0D%0D%0D
+(2) How do you feel about results you get from putting ads online or from being on directory sites like Yell.com?
+%0D%0D%0D
+(3)	Have you heard about Influencer marketing?
+If so, have you tried it before? Otherwise what concerns you about it?
+%0D%0D%0D
+(4)	If there was a website for you to find fitness/beauty influencers fast, what features or results would you like it to have?
+%0D%0D%0D
+(5)	If it had all those features/results, how much would you pay for it a month?
+
+%0D%0D%0D%0D
+From the FitBeau team, Thanks for telling us your pains and opinions. It's so important to us to ensuring we provide you the results you need!
+
+DON'T FORGET TO SIGNUP FREE
+">
+<img src="images/freeb.jpg" alt="" >
+</a>
+					</div>
+				</div>
+			</div>		
+
+		</div>
+</div>
+
+
+<!-------- PRICING END -------------
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="text-align-center" style="line-height: 100px;"><span style="color: rgba(0,0,0,1);" class="font-class">WHAT'S IN IT FOR YOU</span></h2>
+        </div>
+        <div class="col-md-12 font-class">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="highlights">
+                        <h3 class="brand" style="margin: 0px 0px 2% 0px;background-color: #03CACF;"> BRANDS</h3>
+                        <h5 class="text-align-center" background-color: #03CACF;"> <i>Do you sell fitness equipment, beauty products, health supplements or are you a gym, salon or spa? </i></h5>
+                        <div><img src="images/check.png" alt=""><span style="font-weight:bold;">  INCREASE YOUR SITE TRAFFIC, GET MORE SALES, IMPROVE CUSTOMER RETENTION AND ENGAGEMENT</span>
+                        </div>
+                        <div> <img src="images/check.png" alt=""> <span>FREE PROFILE AND RISK FREE CAMPAIGNS </span> </div>
+                        <div> <img src="images/check.png" alt=""> <span>ONLY PAY WHEN YOU FIND THE RIGHT MATCH </span> </div>
+                        <div> <img src="images/check.png" alt=""> <span>ONLY VIEW PROPOSALS FROM THOSE WHO MEET YOUR CRITERIA</span> </div>
+                        <div><img src="images/check.png" alt=""> <span>FREE SUBSCRIPTION TO FITNESS AND BEAUTY MARKETING BLOGS</span> </div>
+                        <div> <img src="images/check.png" alt=""> <span>QUICKLY BROWSE ONLY FITNESS AND BEAUTY INFLUENCERS</span>
+                        </div>
+
+
+                        <p class="text-align-center" style="text-align: center;">
+                            <a class="btn  brands-button" id="two-brand-signup-link" style="background-color: #03CACF; margin-top:10%;margin-right:9%;">FREE QUICK SIGNUP</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="highlights">
+                        <h3 class="influencer" style="margin: 0px 0px 2% 0px;background-color: #652D90;"> INFLUENCERS </h3>
+                        <h5 class="text-align-center" background-color: #03CACF;"> <i>Are you a Mega, Macro or Micro-Influencer, Blogger or Vlogger, or perhaps a newbie? </i></h5>
+                        <div><img src="images/check.png" alt=""><span style="font-weight:bold;">  DISCOVER NEW PRODUCTS & SERVICES, RECEIVE MORE PROMOTION OFFERS,
+ INCREASE YOUR INCOME</span>
+                        </div>
+                        <div> <img src="images/check.png" alt=""> <span>BUILD YOUR FREE MEDIA KIT (PROMOTE YOUR CONTENT & BLOGS) </span> </div>
+                        <div> <img src="images/check.png" alt=""> <span>SECURE AND FAST PAYMENT</span> </div>
+                        <div> <img src="images/check.png" alt=""> <span>MASSIVE EXPOSURE TO FITNESS AND BEAUTY BRANDS</span> </div>
+                        <div><img src="images/check.png" alt=""> <span>SAVE BRANDS TO QUICKLY NEW CAMPAIGNS OR GET HEADHUNTED</span> </div>
+                        <div> <img src="images/check.png" alt=""> <span>JOIN INFLUENCER COMMUNITY TO SHARE TIPS AND ADVISE</span>
+                        </div>
+                        <p class="text-align-center" style="text-align: center;">
+                            <a class="btn  influencer-button" id="two-influencer-signup-link" style="text-align: center;background-color: #652D90 !important; margin-top:10%;">FREE QUICK SIGNUP</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- </div> -->
+      <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="text-align-center" style="line-height: 100px;"><span style="color: rgba(0,0,0,1);" class="font-class"></span></h2>
+        </div>
+        <div class="col-md-12 font-class">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="highlights">
+                        <h3 class="brand" style="margin: 0px 0px 2% 0px;background-color: #03CACF;"> BRANDS</h3>
+                        
+                        <!---div><img src="images/check.png" alt=""><span style="font-weight:bold;">  INCREASE YOUR SITE TRAFFIC, GET MORE SALES, IMPROVE CUSTOMER RETENTION AND ENGAGEMENT</span>
+                        </div--->
+                        
+                        
+
+
+                        <p class="text-align-center" style="text-align: center;">
+                            <a class="btn  brands-button" id="two-brand-signup-link" style="background-color: #03CACF; margin-top:10%;">FREE QUICK SIGNUP</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="highlights">
+                        <h3 class="influencer" style="margin: 0px 0px 2% 0px;background-color: #652D90;"> INFLUENCERS </h3>
+                        
+                        <!--div><img src="images/check.png" alt=""><span style="font-weight:bold;">  DISCOVER NEW PRODUCTS & SERVICES TO TRIAL AND PROMOTE, GET HEADHUNTED BY BRANDS,
+ GET PAID SECURELY</span>
+                        </div--->
+                        
+                        
+                        <p class="text-align-center" style="text-align: center;">
+                            <a class="btn  influencer-button" id="two-influencer-signup-link" style="text-align: center;background-color: #652D90 !important; margin-top:10%;">FREE QUICK SIGNUP</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>                
+    <!-- <footer class="row"> -->
+    <div class="footer" id="footer">
+		<div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12">
+                <a class="ftr-logo" href="#"><img src="images/logo_light.png" alt="">
+                </a>
+
+                <ul class="social">
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/TheFitBeauApp"> <i class=" fa fa-facebook">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://twitter.com/FitBeau"> <i class="fa fa-twitter">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/fitbeau_influencers/"> <i class="fa fa-instagram">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCkvCyEAPE24jEESR0Z9duvg"> <i class="fa fa-youtube">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/company-beta/24794689/"> <i class="fa fa-linkedin">   </i> </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.pinterest.com/the_fitbeau_app/"> <i class="fa fa-pinterest">   </i> </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <h3> FitBeau App </h3>
+                <ul>
+                    <li> <a target="_blank" href="https://itunes.apple.com/us/app/fitbeau/id1231657729?mt=8"> App Store </a> </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <h3> Who We Are </h3>
+                <ul>
+                    <li> <a href="about_us.html"> Who We Are </a> </li>
+                    <li><a href="https://blogfitbeau.wordpress.com" target="_blank">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-2 col-xs-12">
+                <h3> How it works </h3>
+                <ul>
+                    <li> <a href="howto.html"> For Brands </a> </li>
+                    <li> <a href="inf_howto.html"> For Influencers </a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/.footer-->
+
+
+    <!-- 				</footer>
+ -->
+ <!-- For the graph. -->
+ <!-- <div id="visualization"></div> -->
+
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+    </script>
+
+
+
+    <script type="text/javascript" src="js/bundle.js"></script>
+    <script type="text/javascript" src="js/new_index.js"></script>
+    <script type="text/javascript" src='js/css3-animate-it.js'></script>
+   <!-- For the graph. -->
+   <!-- <script type="text/javascript">
+    var container = document.getElementById('visualization');
+       var items = [
+        {x: '2014-06-11', y: 10},
+        {x: '2014-07-12', y: 25},
+        {x: '2014-08-13', y: 30},
+        {x: '2014-09-14', y: 10},
+        {x: '2014-06-15', y: 15},
+        {x: '2014-05-16', y: 30}
+      ];
+
+      var dataset = new vis.DataSet(items);
+      var options = {
+        width:'80%',
+        height:800,
+        timeAxis : {scale: 'month'},
+        zoomMin:5
+      };
+
+    var graph2d = new vis.Graph2d(container, dataset, options);
+</script> -->
+
+</body>
+
+</html>

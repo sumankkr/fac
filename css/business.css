@@ -1,0 +1,55 @@
+.body{
+
+	background-color: #EEEEEE; 
+
+}
+
+.section{
+
+	/*background-color: #fff; */
+	margin: 6% 15%;
+	width: 70%;
+
+}
+
+
+.ui-slider-range.ui-corner-all.ui-widget-header{
+
+	background-color: #0BCBCF;
+}
+
+.ui-slider-handle.ui-corner-all.ui-state-default{
+
+	background-color: #683092;
+	border-radius: 50%;
+	border: 1px solid #683092;
+}
+
+
+.ui-slider.ui-corner-all.ui-slider-horizontal.ui-widget.ui-widget-content, .range{
+
+background-color:#D7D7D7!important;
+border-radius: 25px;
+height: 8px;
+	
+}
+
+
+.form-group{
+
+	border-radius: 2px;
+	/*border: 1px solid gray;*/
+}
+
+
+@media only screen and (max-width: 991px) {
+
+
+.section{
+    
+    margin: 14vw auto;   
+    width: 80%;
+}
+
+
+}
